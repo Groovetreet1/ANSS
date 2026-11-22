@@ -1,0 +1,701 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Association Nationale de Santé et Solidarité — Prévention, soins cardio-visuels et accompagnement social au Maroc.">
+  <title data-ar="ANSS — الجمعية الوطنية للصحة والتضامن">ANSS — Association Nationale de Santé &amp; Solidarité</title>
+  <link rel="icon" type="image/png" href="assets/img/icon-hands-heart.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&family=Tajawal:wght@400;500;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- ======================= HEADER / NAVBAR ======================= -->
+<header class="site-header" id="header">
+  <div class="container nav-inner">
+    <a href="#accueil" class="brand" aria-label="ANSS Accueil">
+      <span class="brand-mark"><img src="assets/img/icon-hands-heart.png" alt="" class="blend"></span>
+      <span class="brand-text">
+        <strong>ANSS</strong>
+        <small data-ar="الجمعية الوطنية للصحة والتضامن">Santé &amp; Solidarité</small>
+      </span>
+    </a>
+
+    <nav class="nav-links" id="navLinks" aria-label="Navigation principale">
+      <a href="#accueil" class="nav-link active" data-ar="الرئيسية">Accueil</a>
+      <a href="#a-propos" class="nav-link" data-ar="من نحن">À propos</a>
+      <a href="#domaines" class="nav-link" data-ar="مجالات التدخل">Domaines d'action</a>
+      <a href="#actualites" class="nav-link" data-ar="الأخبار">Actualités</a>
+      <a href="#contact" class="nav-link" data-ar="اتصل بنا">Contact</a>
+      <div class="nav-mobile-actions">
+        <button class="btn btn-ghost btn-block" data-open="login" data-ar="تسجيل الدخول">Connexion</button>
+        <button class="btn btn-primary btn-block" data-open="inscription" data-ar="انضم إلينا">S'inscrire</button>
+        <button class="btn btn-coral btn-block" data-open="don" data-ar="تبرع الآن">Faire un don</button>
+      </div>
+    </nav>
+
+    <div class="nav-actions">
+      <button class="lang-toggle" id="langToggle" aria-label="Changer de langue">
+        <span class="lang-opt is-active" data-lang="fr">FR</span>
+        <span class="lang-sep">/</span>
+        <span class="lang-opt" data-lang="ar">AR</span>
+      </button>
+      <button class="btn-login" data-open="login" data-ar="دخول">Connexion</button>
+      <button class="btn btn-coral btn-sm" data-open="don" data-ar="تبرع الآن">Faire un don</button>
+    </div>
+
+    <button class="menu-toggle" id="menuToggle" aria-label="Ouvrir le menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<!-- ======================= HERO SLIDER ======================= -->
+<section class="hero" id="accueil">
+  <div class="hero-slides" id="heroSlides">
+
+    <!-- Slide 1 — consultation du patient âgé -->
+    <article class="hero-slide is-active" data-slide="0">
+      <div class="slide-bg" style="background-image:url('assets/img/slider/slide_new_22.png'); background-position:center 42%"></div>
+      <div class="slide-tint slide-tint--photo"></div>
+      <div class="container slide-inner">
+        <div class="slide-copy">
+          <span class="eyebrow eyebrow-light" data-ar="متابعة طبية">Suivi médical</span>
+          <h1 data-ar="رعاية طبية قريبة من القلب">Un suivi médical <em>à hauteur d'homme.</em></h1>
+          <p data-ar="أطباء يأخذون الوقت للاستماع والشرح والمرافقة بكرامة واحترام.">Des médecins qui prennent le temps d'écouter, d'expliquer et d'accompagner avec dignité.</p>
+          <div class="slide-actions">
+            <button class="btn btn-coral btn-lg" data-open="don" data-ar="تبرع الآن">Faire un don <span class="btn-arrow">→</span></button>
+            <a href="#domaines" class="btn btn-outline-light btn-lg" data-ar="اكتشف مجالاتنا">Nos actions <span class="btn-arrow">↓</span></a>
+          </div>
+        </div>
+      </div>
+    </article>
+
+    <!-- Slide 2 — ophtalmologie pédiatrique -->
+    <article class="hero-slide" data-slide="1">
+      <div class="slide-bg" style="background-image:url('assets/img/slider/slide_new_23.png'); background-position:center 40%"></div>
+      <div class="slide-tint slide-tint--teal"></div>
+      <div class="container slide-inner">
+        <div class="slide-copy">
+          <span class="eyebrow eyebrow-light" data-ar="طب العيون للأطفال">Ophtalmologie pédiatrique</span>
+          <h1 data-ar="من الصغر، نحافظ على البصر">Dès le plus jeune âge, <em>préserver la vue.</em></h1>
+          <p data-ar="فحص مبكر للعيون لدى الأطفال، ونظارات وعلاج مناسب لكل مرحلة.">Dépistage précoce de la vue chez l'enfant, lunettes et prise en charge adaptée à chaque âge.</p>
+          <div class="slide-actions">
+            <a href="#domaines" class="btn btn-white btn-lg" data-ar="اكتشف البرنامج">Découvrir le programme <span class="btn-arrow">→</span></a>
+          </div>
+        </div>
+      </div>
+    </article>
+
+    <!-- Slide 3 — cardiologie -->
+    <article class="hero-slide" data-slide="2">
+      <div class="slide-bg" style="background-image:url('assets/img/slider/slide_new_24.png'); background-position:center 45%"></div>
+      <div class="slide-tint slide-tint--photo"></div>
+      <div class="container slide-inner">
+        <div class="slide-copy">
+          <span class="eyebrow eyebrow-light" data-ar="أمراض القلب">Cardiologie</span>
+          <h1 data-ar="كل قلب يستحق فرصة ثانية">Chaque cœur mérite une <em>seconde chance.</em></h1>
+          <p data-ar="إيكو القلب، تخطيط كهربائي، ومتابعة علاجية متخصصة.">Échographie cardiaque, électrocardiogramme et suivi spécialisé pour les patients sans ressources.</p>
+          <div class="slide-actions">
+            <a href="#domaines" class="btn btn-white btn-lg" data-ar="اعرف المزيد">En savoir plus <span class="btn-arrow">→</span></a>
+          </div>
+        </div>
+      </div>
+    </article>
+
+    <!-- Slide 4 — salle d'attente / accueil -->
+    <article class="hero-slide" data-slide="3">
+      <div class="slide-bg" style="background-image:url('assets/img/slider/slide_new_25.png'); background-position:center 50%"></div>
+      <div class="slide-tint slide-tint--teal"></div>
+      <div class="container slide-inner">
+        <div class="slide-copy">
+          <span class="eyebrow eyebrow-light" data-ar="الاستقبال والمرافقة">Accueil &amp; accompagnement</span>
+          <h1 data-ar="استقبال دافئ، للجميع">Un accueil chaleureux, <em>pour tous.</em></h1>
+          <p data-ar="مرافقة المرضى وعائلاتهم من لحظة الوصول إلى غاية العلاج والمتابعة.">Nous accompagnons les patients et leurs familles de l'accueil jusqu'au traitement et au suivi.</p>
+          <div class="slide-actions">
+            <a href="#contact" class="btn btn-white btn-lg" data-ar="اتصل بنا">Nous contacter <span class="btn-arrow">→</span></a>
+          </div>
+        </div>
+      </div>
+    </article>
+
+    <!-- Slide 5 — pédiatrie -->
+    <article class="hero-slide" data-slide="4">
+      <div class="slide-bg" style="background-image:url('assets/img/slider/slide_new_26.png'); background-position:center 40%"></div>
+      <div class="slide-tint slide-tint--photo"></div>
+      <div class="container slide-inner">
+        <div class="slide-copy">
+          <span class="eyebrow eyebrow-light" data-ar="طب الأطفال والوقاية">Pédiatrie &amp; prévention</span>
+          <h1 data-ar="ابتسامة اليوم، حياة الغد">Un sourire aujourd'hui, <em>une vie demain.</em></h1>
+          <p data-ar="الفحص والمتابعة والمرافقة للأطفال وعائلاتهم في مراكزنا الصحية.">Dépistage, suivi et accompagnement des enfants et de leurs familles dans nos centres de santé.</p>
+          <div class="slide-actions">
+            <button class="btn btn-coral btn-lg" data-open="don" data-ar="تبرع الآن">Faire un don <span class="btn-arrow">♥</span></button>
+          </div>
+        </div>
+      </div>
+    </article>
+
+    <!-- Slide 6 — dépistage / tension -->
+    <article class="hero-slide" data-slide="5">
+      <div class="slide-bg" style="background-image:url('assets/img/slider/slide_new_27.png'); background-position:center 45%"></div>
+      <div class="slide-tint slide-tint--teal"></div>
+      <div class="container slide-inner">
+        <div class="slide-copy">
+          <span class="eyebrow eyebrow-light" data-ar="الكشف المبكر">Dépistage précoce</span>
+          <h1 data-ar="فحص اليوم، حياة تُنجى الغد">Un contrôle aujourd'hui, <em>une vie sauvée demain.</em></h1>
+          <p data-ar="الضغط الدموي، السكري، الكولسترول: وقاية ومتابعة مجانية قرب منزلك.">Tension, diabète, cholestérol : prévention et suivi gratuits au plus près de chez vous.</p>
+          <div class="slide-actions">
+            <a href="#contact" class="btn btn-white btn-lg" data-ar="اتصل بنا">Nous contacter <span class="btn-arrow">→</span></a>
+          </div>
+        </div>
+      </div>
+    </article>
+
+    <!-- Slide 7 — Les Yeux du Cœur -->
+    <article class="hero-slide" data-slide="6">
+      <div class="slide-bg" style="background-image:url('assets/img/slider/slide_new_28.png'); background-position:center 38%"></div>
+      <div class="slide-tint slide-tint--photo"></div>
+      <div class="container slide-inner">
+        <div class="slide-copy">
+          <span class="eyebrow eyebrow-light" data-ar="عيون القلب">Les Yeux du Cœur</span>
+          <h1 data-ar="إعادة البصر، إعادة الأمل">Redonner la vue, <em>redonner l'espoir.</em></h1>
+          <p data-ar="نظارات، فحوصات وعمليات الساد لكبار السن وذوي الإعاقة البصرية.">Lunettes, dépistages et chirurgies de la cataracte pour les aînés et les personnes malvoyantes.</p>
+          <div class="slide-actions">
+            <button class="btn btn-coral btn-lg" data-open="don" data-ar="ادعم البرنامج">Soutenir le programme <span class="btn-arrow">♥</span></button>
+          </div>
+        </div>
+      </div>
+    </article>
+
+    <!-- Slide 8 — couloir hospitalier / équipe -->
+    <article class="hero-slide" data-slide="7">
+      <div class="slide-bg" style="background-image:url('assets/img/slider/slide_new_29.png'); background-position:center 45%"></div>
+      <div class="slide-tint slide-tint--teal"></div>
+      <div class="container slide-inner">
+        <div class="slide-copy">
+          <span class="eyebrow eyebrow-light" data-ar="فريق إلى جانبك">Une équipe à vos côtés</span>
+          <h1 data-ar="في كل خطوة، مرافقة إنسانية">À chaque étape, <em>un accompagnement humain.</em></h1>
+          <p data-ar="أطباء وممرضون ومتطوعون يتحدون لضمان رعاية كريمة لك.">Médecins, infirmiers et bénévoles unissent leurs efforts pour vous garantir des soins dignes.</p>
+          <div class="slide-actions">
+            <button class="btn btn-white btn-lg" data-open="inscription" data-ar="انضم إلى الفريق">Rejoindre l'équipe <span class="btn-arrow">→</span></button>
+          </div>
+        </div>
+      </div>
+    </article>
+
+  </div>
+
+  <div class="hero-controls">
+    <div class="container controls-inner">
+      <div class="slider-dots" id="sliderDots" role="tablist" aria-label="Diapositives">
+        <button class="dot is-active" data-go="0" aria-label="Diapositive 1"></button>
+        <button class="dot" data-go="1" aria-label="Diapositive 2"></button>
+        <button class="dot" data-go="2" aria-label="Diapositive 3"></button>
+        <button class="dot" data-go="3" aria-label="Diapositive 4"></button>
+        <button class="dot" data-go="4" aria-label="Diapositive 5"></button>
+        <button class="dot" data-go="5" aria-label="Diapositive 6"></button>
+        <button class="dot" data-go="6" aria-label="Diapositive 7"></button>
+        <button class="dot" data-go="7" aria-label="Diapositive 8"></button>
+      </div>
+      <div class="slide-count"><span id="slideCurrent">01</span><span class="slide-count-sep">/</span><span id="slideTotal">08</span></div>
+      <div class="slider-arrows">
+        <button class="slide-arrow" id="prevSlide" aria-label="Précédent">‹</button>
+        <button class="slide-arrow" id="nextSlide" aria-label="Suivant">›</button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ======================= QUICK STATS ======================= -->
+<div class="stats-wrap">
+  <div class="container">
+    <div class="stats-bar">
+      <div class="stat">
+        <span class="stat-ico ico-blue"><svg viewBox="0 0 24 24"><path d="M12 2 3 6v6c0 5 3.8 9.3 9 10 5.2-.7 9-5 9-10V6l-9-4Zm0 5a3 3 0 1 1 0 6 3 3 0 0 1 0-6Zm0 14.9A7 7 0 0 1 6 16v-.5c.7-2.6 3-4.5 6-4.5s5.3 1.9 6 4.5V16a7 7 0 0 1-6 5.9Z"/></svg></span>
+        <div><strong class="counter" data-target="15">0</strong><span data-ar="سنة من التزامنا">années d'engagement</span></div>
+      </div>
+      <div class="stat">
+        <span class="stat-ico ico-teal"><svg viewBox="0 0 24 24"><path d="M16 11c1.7 0 3-1.3 3-3s-1.3-3-3-3-3 1.3-3 3 1.3 3 3 3Zm-8 0c1.7 0 3-1.3 3-3S9.7 5 8 5 5 6.3 5 8s1.3 3 3 3Zm0 2c-2.3 0-7 1.2-7 3.5V19h14v-2.5C15 14.2 10.3 13 8 13Zm8 0c-.3 0-.6 0-1 .1 1.2.9 2 2.1 2 3.4V19h7v-2.5c0-2.3-4.7-3.5-8-3.5Z"/></svg></span>
+        <div><strong class="counter" data-target="48000" data-format="space">0</strong><span data-ar="مريض رافقناه">patients accompagnés</span></div>
+      </div>
+      <div class="stat">
+        <span class="stat-ico ico-coral"><svg viewBox="0 0 24 24"><path d="M12 21s-8-4.9-8-10.4A4.6 4.6 0 0 1 12 7.4a4.6 4.6 0 0 1 8 3.2C20 16.1 12 21 12 21Z"/></svg></span>
+        <div><strong class="counter" data-target="320">0</strong><span data-ar="متطوعون نشطون">bénévoles mobilisés</span></div>
+      </div>
+      <div class="stat">
+        <span class="stat-ico ico-gold"><svg viewBox="0 0 24 24"><path d="M12 2C8 2 4 3.3 4 6v12c0 1.7 3.6 3 8 3s8-1.3 8-3V6c0-2.7-4-4-8-4Zm6 15.3c-.8.5-2.9 1.2-6 1.2s-5.2-.7-6-1.2V8.5c1.5 1 3.7 1.5 6 1.5s4.5-.5 6-1.5v8.8Z"/></svg></span>
+        <div><strong class="counter" data-target="12">0</strong><span data-ar="ولايات مغطاة">wilayas couvertes</span></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ======================= À PROPOS ======================= -->
+<section class="section about" id="a-propos">
+  <div class="container">
+    <div class="about-grid">
+      <div class="about-visual">
+        <div class="about-blob"></div>
+        <div class="about-logo-card">
+          <img src="assets/img/logo-anss.png" alt="Logo ANSS — Association Nationale de Santé & Solidarité" class="blend">
+        </div>
+        <div class="about-badge">
+          <strong>2010</strong>
+          <span data-ar="منذ">Depuis</span>
+        </div>
+        <div class="about-float">
+          <span class="about-float-icon"><svg viewBox="0 0 24 24"><path d="m12 2 2.4 6.6L21 9l-5 4 1.6 6.9L12 16.8 6.4 19.9 8 13 3 9l6.6-.4L12 2Z"/></svg></span>
+          <div><strong data-ar="≥ 90%">90%+</strong><small data-ar="من التبرعات مخصصة للأنشطة">des fonds aux actions</small></div>
+        </div>
+      </div>
+
+      <div class="about-copy">
+        <span class="section-label" data-ar="من نحن؟">QUI SOMMES-NOUS ?</span>
+        <h2 class="section-title" data-ar="مهمة وُلدت من التضامن">Une mission née de la <span>solidarité.</span></h2>
+        <p class="lead" data-ar="الجمعية الوطنية للصحة والتضامن جمعية مغربية غير ربحية ترافق الأشخاص في وضعية هشاشة للوصول إلى رعاية صحية ذات جودة، مهما كانت ظروفهم.">L'ANSS est une association marocaine à but non lucratif qui accompagne les personnes en situation de vulnérabilité pour accéder à des soins de qualité, quelle que soit leur situation.</p>
+        <p data-ar="نؤمن أن الصحة حق أساسي، ولذلك نعمل على ثلاثة محاور: الوقاية، العناية بالقلب والبصر، والمرافقة الاجتماعية.">Nous croyons que la santé est un droit fondamental. C'est pourquoi nous agissons sur trois fronts : la prévention, les soins cardio-visuels et l'accompagnement social.</p>
+        <ul class="check-list">
+          <li><span class="check"><svg viewBox="0 0 24 24"><path d="M9 16.2 4.8 12l-1.4 1.4L9 19 21 7l-1.4-1.4L9 16.2Z"/></svg></span><span data-ar="فريق طبي متطوع ومؤهل">Équipe médicale bénévole et qualifiée</span></li>
+          <li><span class="check"><svg viewBox="0 0 24 24"><path d="M9 16.2 4.8 12l-1.4 1.4L9 19 21 7l-1.4-1.4L9 16.2Z"/></svg></span><span data-ar="تدخلات في 12 ولاية من المملكة">Interventions dans 12 wilayas du Royaume</span></li>
+          <li><span class="check"><svg viewBox="0 0 24 24"><path d="M9 16.2 4.8 12l-1.4 1.4L9 19 21 7l-1.4-1.4L9 16.2Z"/></svg></span><span data-ar="شفافية كاملة في تدبير التبرعات">Transparence totale dans la gestion des dons</span></li>
+        </ul>
+        <div class="about-actions">
+          <a href="#domaines" class="btn btn-primary btn-lg" data-ar="اكتشف مجالاتنا">Découvrir nos actions <span class="btn-arrow">→</span></a>
+          <button class="btn btn-text" data-open="inscription" data-ar="انضم إلى الجمعية">Rejoindre l'association <span class="btn-arrow">→</span></button>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ======================= DOMAINES D'ACTION ======================= -->
+<section class="section domains" id="domaines">
+  <div class="container">
+    <div class="section-head center">
+      <span class="section-label" data-ar="مجالات تدخلنا">NOS DOMAINES D'ACTION</span>
+      <h2 class="section-title" data-ar="ثلاثة محاور، مهمة واحدة">Trois fronts, <span>une seule mission.</span></h2>
+      <p data-ar="برامج عملية ومكيّفة مع الاحتياجات الحقيقية للفئات الأكثر هشاشة.">Des programmes concrets et adaptés aux besoins réels des populations les plus vulnérables.</p>
+    </div>
+
+    <div class="domain-grid">
+      <article class="domain-card card-coral">
+        <div class="domain-icon"><img src="assets/img/icon-heart.png" alt="" class="blend"></div>
+        <div class="domain-body">
+          <span class="domain-num">01</span>
+          <h3 data-ar="أمراض القلب">Cardiologie</h3>
+          <p data-ar="كشف مجاني عن أمراض القلب والأوعية الدموية، استشارات متخصصة، وتغطية العمليات للمرضى ذوي الدخل المحدود.">Dépistage gratuit des maladies cardiovasculaires, consultations spécialisées et prise en charge des interventions pour les patients sans ressources.</p>
+          <a href="#contact" class="link-arrow" data-ar="اعرف المزيد">En savoir plus <span>→</span></a>
+        </div>
+      </article>
+
+      <article class="domain-card card-teal">
+        <div class="domain-icon"><img src="assets/img/logo-yeux-coeur.png" alt="" class="blend"></div>
+        <div class="domain-body">
+          <span class="domain-num">02</span>
+          <h3 data-ar="طب العيون">Ophtalmologie</h3>
+          <p data-ar="«عيون القلب»: كشف، جراحة الساد، وتوزيع النظارات لإعادة البصر لمن لا يملك الوسائل.">« Les Yeux du Cœur » : dépistage, chirurgie de la cataracte et distribution de lunettes pour redonner la vue aux plus démunis.</p>
+          <a href="#contact" class="link-arrow" data-ar="اعرف المزيد">En savoir plus <span>→</span></a>
+        </div>
+      </article>
+
+      <article class="domain-card card-blue">
+        <div class="domain-icon"><img src="assets/img/icon-protection.png" alt="" class="blend"></div>
+        <div class="domain-body">
+          <span class="domain-num">03</span>
+          <h3 data-ar="العمل الاجتماعي">Action sociale</h3>
+          <p data-ar="مرافقة إنسانية ومادية للأسر في صعوبة: وجبات، أدوية، دعم مدرسي، ومتابعة نفسية.">Accompagnement humain et matériel des familles en difficulté : repas, médicaments, soutien scolaire et suivi psychologique.</p>
+          <a href="#contact" class="link-arrow" data-ar="اعرف المزيد">En savoir plus <span>→</span></a>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ======================= PARCOURS ======================= -->
+<section class="section process">
+  <div class="container">
+    <div class="section-head center">
+      <span class="section-label" data-ar="كيف تعمل؟">COMMENT ÇA MARCHE ?</span>
+      <h2 class="section-title" data-ar="مسار بسيط وإنساني">Un parcours <span>simple et humain.</span></h2>
+      <p data-ar="من أول طلب إلى المتابعة الطبية، نبقى إلى جانبك في كل خطوة.">De la première demande au suivi médical, nous restons à vos côtés à chaque étape.</p>
+    </div>
+
+    <div class="process-grid">
+      <div class="step">
+        <div class="step-icon"><img src="assets/img/icon-mail.png" alt="" class="blend"></div>
+        <span class="step-num">01</span>
+        <h3 data-ar="أودع طلبك">Déposez votre demande</h3>
+        <p data-ar="عبر الأنترنت أو في أحد مراكزنا، اشرح حاجتك في دقائق قليلة.">En ligne ou dans l'un de nos centres, expliquez votre besoin en quelques minutes.</p>
+      </div>
+      <div class="step">
+        <div class="step-icon"><img src="assets/img/icon-stethoscope.png" alt="" class="blend"></div>
+        <span class="step-num">02</span>
+        <h3 data-ar="تقييم طبي">Évaluation médicale</h3>
+        <p data-ar="يدرس فريقنا ملفك ويحدد التكفل المناسب لحالتك.">Notre équipe étudie votre dossier et définit la prise en charge adaptée.</p>
+      </div>
+      <div class="step">
+        <div class="step-icon"><img src="assets/img/icon-hands-heart.png" alt="" class="blend"></div>
+        <span class="step-num">03</span>
+        <h3 data-ar="التكفل">Prise en charge</h3>
+        <p data-ar="استشارات، تحاليل، عمليات، أو دعم اجتماعي حسب حالتك.">Consultations, analyses, opérations ou soutien social selon votre situation.</p>
+      </div>
+      <div class="step">
+        <div class="step-icon"><img src="assets/img/icon-info.png" alt="" class="blend"></div>
+        <span class="step-num">04</span>
+        <h3 data-ar="المتابعة والمرافقة">Suivi &amp; accompagnement</h3>
+        <p data-ar="نبقى على تواصل معك لضمان تعافيك واستقلاليتك.">Nous restons en contact pour garantir votre rétablissement et votre autonomie.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ======================= IMPACT ======================= -->
+<section class="impact">
+  <div class="impact-pattern"></div>
+  <div class="container impact-inner">
+    <div class="impact-copy">
+      <span class="section-label label-light" data-ar="أثرنا">NOTRE IMPACT</span>
+      <h2 class="section-title title-light" data-ar="أرقام تحكي حيوات">Des chiffres qui racontent <span>des vies.</span></h2>
+      <p data-ar="كل رقم يمثل شخصاً، أو عائلة، أو أملاً مستعاداً.">Chaque nombre représente une personne, une famille, un espoir retrouvé.</p>
+      <a href="#contact" class="btn btn-white btn-lg" data-ar="انضم إلى المهمة">Rejoindre la mission <span class="btn-arrow">→</span></a>
+    </div>
+    <div class="impact-numbers">
+      <div class="impact-item"><strong class="counter" data-target="6800" data-format="space">0</strong><span data-ar="جراحة الساد">opérations de la cataracte</span></div>
+      <div class="impact-item"><strong class="counter" data-target="12400" data-format="space">0</strong><span data-ar="استشارة قلبية">consultations cardiologiques</span></div>
+      <div class="impact-item"><strong class="counter" data-target="950" data-format="space">0</strong><span data-ar="عائلة رافقناها">familles accompagnées</span></div>
+      <div class="impact-item"><strong class="counter" data-target="100" data-suffix="%">0</strong><span data-ar="من التبرعات مخصصة للعلاج">des dons affectés aux soins</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- ======================= ACTUALITÉS ======================= -->
+<section class="section news" id="actualites">
+  <div class="container">
+    <div class="section-head split">
+      <div>
+        <span class="section-label" data-ar="الأخبار">ACTUALITÉS</span>
+        <h2 class="section-title" data-ar="ما يجري في الجمعية">Ce qui se passe <span>à l'ANSS.</span></h2>
+      </div>
+      <a href="#contact" class="link-arrow" data-ar="كل الأخبار">Toutes les actualités <span>→</span></a>
+    </div>
+
+    <div class="news-grid">
+      <article class="news-card news-feature">
+        <div class="news-thumb news-thumb--photo" style="background-image:url('assets/img/hero-hospital.png')">
+          <span class="news-tag" data-ar="الأبرز">À la une</span>
+        </div>
+        <div class="news-body">
+          <span class="news-date" data-ar="12 نونبر 2026">12 Novembre 2026</span>
+          <h3 data-ar="حملة كشف عن أمراض القلب والأوعية في إقليم تارودانت">Campagne de dépistage cardiovasculaire dans la province de Taroudant</h3>
+          <p data-ar="استفاد أكثر من 400 ساكن من كشف مجاني ومتابعة طبية مخصصة خلال آخر مهمة ميدانية لنا.">Plus de 400 habitants ont bénéficié d'un dépistage gratuit et d'un suivi médical personnalisé lors de notre dernière mission de terrain.</p>
+          <a href="#contact" class="link-arrow" data-ar="اقرأ المقال">Lire l'article <span>→</span></a>
+        </div>
+      </article>
+
+      <div class="news-list">
+        <article class="news-row">
+          <div class="news-row-thumb thumb-teal"><img src="assets/img/logo-yeux-coeur.png" alt="" class="blend"></div>
+          <div class="news-row-body">
+            <span class="news-date" data-ar="28 أكتوبر 2026">28 Octobre 2026</span>
+            <h3 data-ar="«عيون القلب»: 250 عملية ناجحة">« Les Yeux du Cœur » : 250 opérations réussies</h3>
+            <a href="#contact" class="link-arrow" data-ar="اقرأ المقال">Lire l'article <span>→</span></a>
+          </div>
+        </article>
+        <article class="news-row">
+          <div class="news-row-thumb thumb-blue"><img src="assets/img/icon-house.png" alt="" class="blend"></div>
+          <div class="news-row-body">
+            <span class="news-date" data-ar="09 أكتوبر 2026">09 Octobre 2026</span>
+            <h3 data-ar="افتتاح مركز الاستقبال الجديد في مراكش">Ouverture de notre nouveau centre d'accueil à Marrakech</h3>
+            <a href="#contact" class="link-arrow" data-ar="اقرأ المقال">Lire l'article <span>→</span></a>
+          </div>
+        </article>
+        <article class="news-row">
+          <div class="news-row-thumb thumb-coral"><img src="assets/img/icon-stethoscope.png" alt="" class="blend"></div>
+          <div class="news-row-body">
+            <span class="news-date" data-ar="21 شتنبر 2026">21 Septembre 2026</span>
+            <h3 data-ar="حملة وقاية جديدة في المدارس">Une nouvelle campagne de prévention dans les écoles</h3>
+            <a href="#contact" class="link-arrow" data-ar="اقرأ المقال">Lire l'article <span>→</span></a>
+          </div>
+        </article>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ======================= DON CTA ======================= -->
+<section class="don-band">
+  <div class="don-pattern"></div>
+  <div class="container don-inner">
+    <div class="don-copy">
+      <span class="section-label label-light" data-ar="اصنع الفرق">FAITES LA DIFFÉRENCE</span>
+      <h2 data-ar="كرمك يغيّر حيوات.">Votre générosité change <em>des vies.</em></h2>
+      <p data-ar="تبرع بـ50 درهماً يموّل كشفاً، و100 درهم استشارة متخصصة. كل مساهمة مهمة.">Un don de 50 DH finance un dépistage. 100 DH, une consultation spécialisée. Chaque geste compte.</p>
+    </div>
+    <div class="don-box">
+      <span class="don-box-title" data-ar="اختر المبلغ">Choisissez un montant</span>
+      <div class="amount-grid" id="amountGrid">
+        <button class="amount-btn is-selected" data-amount="50">50 <small data-ar="درهم">DH</small></button>
+        <button class="amount-btn" data-amount="100">100 <small data-ar="درهم">DH</small></button>
+        <button class="amount-btn" data-amount="250">250 <small data-ar="درهم">DH</small></button>
+        <button class="amount-btn" data-amount="500">500 <small data-ar="درهم">DH</small></button>
+      </div>
+      <button class="btn btn-white btn-lg btn-block" id="donBandBtn" data-ar="أتبرع الآن">Je fais un don <span class="btn-arrow">♥</span></button>
+      <small class="don-secure"><svg viewBox="0 0 24 24"><path d="M12 1 3 5v6c0 5 3.8 9.3 9 10 5.2-.7 9-5 9-10V5l-9-4Zm-1 14-4-4 1.4-1.4L11 12.2l5.6-5.6L18 8l-7 7Z"/></svg> <span data-ar="دفع آمن وسرّي">Paiement sécurisé et confidentiel</span></small>
+    </div>
+  </div>
+</section>
+
+<!-- ======================= PARTENAIRES ======================= -->
+<section class="section partners-section" id="partenaires">
+  <div class="container center">
+    <span class="section-label" data-ar="شركاؤنا في النجاح">Nos partenaires</span>
+    <h2 class="section-title">
+      <img src="icon_handshake.jpg" alt="" class="section-icon" width="50">
+      <span data-ar="شركاؤنا في النجاح">Nos partenaires dans la réussite</span>
+    </h2>
+    <p class="section-subtitle" data-ar="مؤسسات تثق فينا وتدعم مسيرتنا التضامنية والصحية">Des institutions qui nous font confiance et soutiennent notre parcours solidaire et sanitaire.</p>
+  </div>
+
+  <div class="slider-container">
+    <div class="slider-track">
+      <!-- 1. المؤسسات العمومية والتعاضديات -->
+      <div class="slide"><img src="images/cnss.png" alt="CNSS"><span>CNSS</span></div>
+      <div class="slide"><img src="images/cnops.png" alt="CNOPS"><span>CNOPS</span></div>
+
+      <!-- 2. المصحات الخاصة -->
+      <div class="slide"><img src="images/akdital.png" alt="Akdital"><span>Akdital</span></div>
+
+      <!-- 3. الأبناك -->
+      <div class="slide"><img src="images/awb.png" alt="Attijariwafa Bank"><span>Attijariwafa Bank</span></div>
+      <div class="slide"><img src="images/bmce.png" alt="BMCE Bank of Africa"><span>Bank of Africa</span></div>
+      <div class="slide"><img src="images/cih.png" alt="CIH Bank"><span>CIH Bank</span></div>
+
+      <!-- 4. الاتصالات -->
+      <div class="slide"><img src="images/orange.png" alt="Orange"><span>Orange</span></div>
+      <div class="slide"><img src="images/inwi.png" alt="INWI"><span>INWI</span></div>
+      <div class="slide"><img src="images/maroc_telecom.png" alt="Maroc Telecom"><span>Maroc Telecom</span></div>
+
+      <!-- نسخة مكررة باش تكون الحركة مستمرة بدون انقطاع -->
+      <div class="slide"><img src="images/cnss.png" alt="CNSS"><span>CNSS</span></div>
+      <div class="slide"><img src="images/cnops.png" alt="CNOPS"><span>CNOPS</span></div>
+      <div class="slide"><img src="images/akdital.png" alt="Akdital"><span>Akdital</span></div>
+      <div class="slide"><img src="images/awb.png" alt="Attijariwafa Bank"><span>Attijariwafa Bank</span></div>
+      <div class="slide"><img src="images/bmce.png" alt="BMCE Bank of Africa"><span>Bank of Africa</span></div>
+      <div class="slide"><img src="images/cih.png" alt="CIH Bank"><span>CIH Bank</span></div>
+      <div class="slide"><img src="images/orange.png" alt="Orange"><span>Orange</span></div>
+      <div class="slide"><img src="images/inwi.png" alt="INWI"><span>INWI</span></div>
+      <div class="slide"><img src="images/maroc_telecom.png" alt="Maroc Telecom"><span>Maroc Telecom</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- ======================= CONTACT ======================= -->
+<section class="section contact" id="contact">
+  <div class="container">
+    <div class="section-head center">
+      <span class="section-label" data-ar="اتصل بنا">CONTACTEZ-NOUS</span>
+      <h2 class="section-title" data-ar="لنحدث عن مشروعك">Parlons de <span>votre projet.</span></h2>
+      <p data-ar="سؤال، طلب مساعدة، أو رغبة في الانضمام إلينا؟ اكتب لنا، ونرد عليك خلال 48 ساعة.">Une question, une demande d'aide ou envie de nous rejoindre ? Écrivez-nous, nous vous répondons sous 48h.</p>
+    </div>
+
+    <div class="contact-grid">
+      <div class="contact-info">
+        <div class="info-card">
+          <div class="info-icon"><svg viewBox="0 0 24 24"><path d="M12 2C8.1 2 5 5.1 5 9c0 5.2 7 13 7 13s7-7.8 7-13c0-3.9-3.1-7-7-7Zm0 9.5A2.5 2.5 0 1 1 12 6a2.5 2.5 0 0 1 0 5.5Z"/></svg></div>
+          <div><strong data-ar="عنواننا">Notre adresse</strong><p data-ar="12 شارع المستشفيات، الدار البيضاء، المغرب">12 rue des Hôpitaux, Casablanca, Maroc</p></div>
+        </div>
+        <div class="info-card">
+          <div class="info-icon"><svg viewBox="0 0 24 24"><path d="M6.6 10.8a15 15 0 0 0 6.6 6.6l2.2-2.2c.3-.3.7-.4 1-.2 1.2.4 2.4.6 3.6.6.6 0 1 .4 1 1V20c0 .6-.4 1-1 1A17 17 0 0 1 3 4c0-.6.4-1 1-1h3.5c.6 0 1 .4 1 1 0 1.3.2 2.5.6 3.6.1.4 0 .8-.2 1l-2.3 2.2Z"/></svg></div>
+          <div><strong data-ar="الهاتف">Téléphone</strong><p dir="ltr">+212 522 45 67 89</p></div>
+        </div>
+        <div class="info-card">
+          <div class="info-icon"><svg viewBox="0 0 24 24"><path d="M20 4H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2Zm0 4-8 5-8-5V6l8 5 8-5v2Z"/></svg></div>
+          <div><strong data-ar="البريد الإلكتروني">Email</strong><p dir="ltr">contact@anss.ma</p></div>
+        </div>
+        <div class="info-card">
+          <div class="info-icon"><svg viewBox="0 0 24 24"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm1 10.6V17h-2v-6H7v-2h3V7a2 2 0 0 1 2-2h2v2h-2v2h4v2h-3v.6l2.7 2.7-1.4 1.4L13 12.6Z"/></svg></div>
+          <div><strong data-ar="ساعات العمل">Horaires</strong><p data-ar="الإثنين – الجمعة: 9 صباحاً – 6 مساءً">Lundi – Vendredi : 9h – 18h</p></div>
+        </div>
+      </div>
+
+      <form class="contact-form" id="contactForm" novalidate>
+        <div class="form-row">
+          <div class="field">
+            <label for="contactName" data-ar="الاسم الكامل">Nom complet</label>
+            <input type="text" id="contactName" name="name" placeholder="Votre nom" data-ph-ar="اسمك الكامل" required>
+            <span class="field-error"></span>
+          </div>
+          <div class="field">
+            <label for="contactEmail" data-ar="البريد الإلكتروني">Email</label>
+            <input type="email" id="contactEmail" name="email" placeholder="vous@exemple.com" data-ph-ar="بريدك@example.com" required>
+            <span class="field-error"></span>
+          </div>
+        </div>
+        <div class="field">
+          <label for="contactSubject" data-ar="الموضوع">Sujet</label>
+          <select id="contactSubject" name="subject">
+            <option data-ar="طلب مساعدة">Demande d'aide</option>
+            <option data-ar="أن أصبح متطوعاً">Devenir bénévole</option>
+            <option data-ar="شراكة">Partenariat</option>
+            <option data-ar="سؤال آخر">Autre question</option>
+          </select>
+        </div>
+        <div class="field">
+          <label for="contactMessage" data-ar="الرسالة">Message</label>
+          <textarea id="contactMessage" name="message" rows="5" placeholder="Écrivez votre message ici..." data-ph-ar="اكتب رسالتك هنا..." required></textarea>
+          <span class="field-error"></span>
+        </div>
+        <button type="submit" class="btn btn-primary btn-lg" data-ar="إرسال الرسالة">Envoyer le message <span class="btn-arrow">→</span></button>
+      </form>
+    </div>
+
+    <div class="map-wrap">
+      <iframe title="Localisation ANSS — Casablanca" src="https://www.google.com/maps?q=Casablanca%20Maroc&output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      <div class="map-overlay">
+        <span class="map-pin"><svg viewBox="0 0 24 24"><path d="M12 2C8.1 2 5 5.1 5 9c0 5.2 7 13 7 13s7-7.8 7-13c0-3.9-3.1-7-7-7Zm0 9.5A2.5 2.5 0 1 1 12 6a2.5 2.5 0 0 1 0 5.5Z"/></svg></span>
+        <div><strong data-ar="ANSS — الدار البيضاء">ANSS — Casablanca</strong><small data-ar="انقر للحصول على الاتجاهات">Cliquez pour itinéraire</small></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- ======================= FOOTER ======================= -->
+<footer class="site-footer">
+  <div class="container footer-grid">
+    <div class="footer-brand">
+      <a href="#accueil" class="brand brand-footer">
+        <span class="brand-mark"><img src="assets/img/icon-footer.png" alt=""></span>
+        <span class="brand-text"><strong>ANSS</strong><small data-ar="الجمعية الوطنية للصحة والتضامن">Santé &amp; Solidarité</small></span>
+      </a>
+      <p data-ar="معاً من أجل صحة متاحة وكريمة ومتضامنة في المغرب.">Ensemble pour une santé accessible, digne et solidaire au Maroc.</p>
+      <div class="socials">
+        <a href="#contact" aria-label="Facebook"><svg viewBox="0 0 24 24"><path d="M13 22v-8h2.7l.4-3H13V9.3c0-.9.3-1.5 1.6-1.5H16V5.2c-.3 0-1.3-.1-2.4-.1-2.4 0-4 1.5-4 4.1V11H7v3h2.6v8H13Z"/></svg></a>
+        <a href="#contact" aria-label="Instagram"><svg viewBox="0 0 24 24"><path d="M7 2h10a5 5 0 0 1 5 5v10a5 5 0 0 1-5 5H7a5 5 0 0 1-5-5V7a5 5 0 0 1 5-5Zm5 5a5 5 0 1 0 0 10 5 5 0 0 0 0-10Zm5.5-1.5a1.2 1.2 0 1 0 0 2.4 1.2 1.2 0 0 0 0-2.4ZM12 9a3 3 0 1 1 0 6 3 3 0 0 1 0-6Z"/></svg></a>
+        <a href="#contact" aria-label="LinkedIn"><svg viewBox="0 0 24 24"><path d="M6.5 8H3.8V21h2.7V8ZM5.1 3.5a1.6 1.6 0 1 0 0 3.2 1.6 1.6 0 0 0 0-3.2ZM21 13.7c0-3.3-1.8-4.9-4.1-4.9-1.9 0-2.7 1.1-3.2 1.8V8h-2.7v13h2.7v-6.7c0-1.8.8-2.9 2.3-2.9 1.5 0 2.2 1.1 2.2 2.9V21H21v-7.3Z"/></svg></a>
+        <a href="#contact" aria-label="YouTube"><svg viewBox="0 0 24 24"><path d="M22 8.2a2.5 2.5 0 0 0-1.8-1.8C18.7 6 12 6 12 6s-6.7 0-8.2.4A2.5 2.5 0 0 0 2 8.2 26 26 0 0 0 1.6 12 26 26 0 0 0 2 15.8a2.5 2.5 0 0 0 1.8 1.8C5.3 18 12 18 12 18s6.7 0 8.2-.4a2.5 2.5 0 0 0 1.8-1.8A26 26 0 0 0 22.4 12 26 26 0 0 0 22 8.2ZM10 15V9l5 3-5 3Z"/></svg></a>
+      </div>
+    </div>
+
+    <div class="footer-col">
+      <h4 data-ar="التنقل">Navigation</h4>
+      <a href="#accueil" data-ar="الرئيسية">Accueil</a>
+      <a href="#a-propos" data-ar="من نحن">À propos</a>
+      <a href="#domaines" data-ar="مجالات التدخل">Domaines d'action</a>
+      <a href="#actualites" data-ar="الأخبار">Actualités</a>
+      <a href="#contact" data-ar="اتصل بنا">Contact</a>
+    </div>
+
+    <div class="footer-col">
+      <h4 data-ar="مساحة العضو">Espace membre</h4>
+      <button data-open="login" data-ar="تسجيل الدخول">Connexion</button>
+      <button data-open="inscription" data-ar="التسجيل">Inscription</button>
+      <button data-open="don" data-ar="تبرع الآن">Faire un don</button>
+      <a href="#contact" data-ar="طلب المساعدة">Demander de l'aide</a>
+      <a href="#contact" data-ar="أن أصبح متطوعاً">Devenir bénévole</a>
+    </div>
+
+    <div class="footer-col footer-newsletter">
+      <div class="nl-card">
+        <span class="nl-glow" aria-hidden="true"></span>
+        <div class="nl-icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24"><path d="M20 4H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2Zm0 4-8 5-8-5V6l8 5 8-5v2Z"/></svg>
+        </div>
+        <h4 data-ar="ابقَ على اطلاع">Restez informé</h4>
+        <p data-ar="استقبل أخبارنا وحملاتنا عبر البريد الإلكتروني.">Recevez nos actualités et campagnes par email.</p>
+        <form id="newsletterForm" novalidate>
+          <div class="nl-field">
+            <input type="email" id="newsletterEmail" placeholder="Votre email" data-ph-ar="بريدك الإلكتروني" aria-label="Email pour la newsletter" required>
+            <button type="submit" aria-label="S'inscrire">
+              <svg viewBox="0 0 24 24"><path d="m12 4-1.4 1.4L17.2 11H4v2h13.2l-6.6 5.6L12 20l8-8-8-8Z"/></svg>
+            </button>
+          </div>
+        </form>
+        <small class="nl-note">
+          <svg viewBox="0 0 24 24"><path d="M9 16.2 4.8 12l-1.4 1.4L9 19 21 7l-1.4-1.4L9 16.2Z"/></svg>
+          <span data-ar="لا رسائل مزعجة، فقط ما يهمك.">Pas de spam, juste l'essentiel.</span>
+        </small>
+      </div>
+    </div>
+  </div>
+  <div class="container footer-bottom">
+    <span>© 2026 ANSS. <span data-ar="جميع الحقوق محفوظة.">Tous droits réservés.</span></span>
+    <span data-ar="صُنع بـ♥ من أجل الصحة في المغرب">Fait avec ♥ pour la santé au Maroc</span>
+  </div>
+</footer>
+
+<!-- ======================= MODALS ======================= -->
+<div class="modal-overlay" id="modalOverlay" hidden></div>
+
+<!-- Login -->
+<div class="modal" id="modal-login" role="dialog" aria-modal="true" aria-labelledby="loginTitle" hidden>
+  <button class="modal-close" data-close aria-label="Fermer">×</button>
+  <div class="modal-icon"><img src="assets/img/icon-stethoscope.png" alt="" class="blend"></div>
+  <h2 id="loginTitle" data-ar="مرحباً بعودتك">Bon retour parmi nous</h2>
+  <p data-ar="سجّل الدخول إلى مساحتك في الجمعية.">Connectez-vous à votre espace ANSS.</p>
+  <form class="modal-form" id="loginForm" novalidate>
+    <div class="field"><label for="loginEmail" data-ar="البريد الإلكتروني">Email</label><input type="email" id="loginEmail" placeholder="vous@exemple.com" data-ph-ar="بريدك@example.com" required><span class="field-error"></span></div>
+    <div class="field"><label for="loginPassword" data-ar="كلمة المرور">Mot de passe</label><input type="password" id="loginPassword" placeholder="••••••••" required><span class="field-error"></span></div>
+    <div class="field"><label for="loginRole" data-ar="أنا">Je suis</label><select id="loginRole"><option data-ar="مريض">Patient</option><option data-ar="متطوع">Bénévole</option><option data-ar="طبيب">Médecin</option></select></div>
+    <button type="submit" class="btn btn-primary btn-lg btn-block" data-ar="تسجيل الدخول">Se connecter <span class="btn-arrow">→</span></button>
+  </form>
+  <p class="modal-switch" data-ar="ليس لديك حساب بعد؟">Pas encore de compte ? <button data-open="inscription" data-ar="سجّل الآن">Inscrivez-vous</button></p>
+</div>
+
+<!-- Register -->
+<div class="modal" id="modal-inscription" role="dialog" aria-modal="true" aria-labelledby="registerTitle" hidden>
+  <button class="modal-close" data-close aria-label="Fermer">×</button>
+  <div class="modal-icon"><img src="assets/img/icon-hands-heart.png" alt="" class="blend"></div>
+  <h2 id="registerTitle" data-ar="انضم إلى الجمعية">Rejoignez l'ANSS</h2>
+  <p data-ar="أنشئ حسابك في ثوانٍ قليلة.">Créez votre compte en quelques secondes.</p>
+  <form class="modal-form" id="registerForm" novalidate>
+    <div class="field"><label for="regName" data-ar="الاسم الكامل">Nom complet</label><input type="text" id="regName" placeholder="Votre nom" data-ph-ar="اسمك الكامل" required><span class="field-error"></span></div>
+    <div class="field"><label for="regEmail" data-ar="البريد الإلكتروني">Email</label><input type="email" id="regEmail" placeholder="vous@exemple.com" data-ph-ar="بريدك@example.com" required><span class="field-error"></span></div>
+    <div class="field"><label for="regRole" data-ar="أسجّل كـ">Je m'inscris comme</label><select id="regRole"><option data-ar="مريض">Patient</option><option data-ar="متطوع">Bénévole</option><option data-ar="طبيب">Médecin</option></select></div>
+    <div class="form-row">
+      <div class="field"><label for="regPassword" data-ar="كلمة المرور">Mot de passe</label><input type="password" id="regPassword" placeholder="••••••••" required><span class="field-error"></span></div>
+      <div class="field"><label for="regConfirm" data-ar="تأكيد">Confirmer</label><input type="password" id="regConfirm" placeholder="••••••••" required><span class="field-error"></span></div>
+    </div>
+    <button type="submit" class="btn btn-coral btn-lg btn-block" data-ar="إنشاء حسابي">Créer mon compte <span class="btn-arrow">→</span></button>
+  </form>
+  <p class="modal-switch" data-ar="عضو بالفعل؟">Déjà membre ? <button data-open="login" data-ar="سجّل الدخول">Connectez-vous</button></p>
+</div>
+
+<!-- Don -->
+<div class="modal" id="modal-don" role="dialog" aria-modal="true" aria-labelledby="donTitle" hidden>
+  <button class="modal-close" data-close aria-label="Fermer">×</button>
+  <div class="modal-icon"><img src="assets/img/icon-hands-heart.png" alt="" class="blend"></div>
+  <h2 id="donTitle" data-ar="تبرع الآن">Faire un don</h2>
+  <p data-ar="دعمك يموّل مباشرة أنشطتنا الصحية.">Votre soutien finance directement nos actions de santé.</p>
+  <form class="modal-form" id="donForm" novalidate>
+    <div class="field"><label data-ar="مبلغ التبرع">Montant du don</label>
+      <div class="amount-grid amount-grid--modal" id="modalAmountGrid">
+        <button type="button" class="amount-btn is-selected" data-amount="50">50 <small data-ar="درهم">DH</small></button>
+        <button type="button" class="amount-btn" data-amount="100">100 <small data-ar="درهم">DH</small></button>
+        <button type="button" class="amount-btn" data-amount="250">250 <small data-ar="درهم">DH</small></button>
+        <button type="button" class="amount-btn" data-amount="500">500 <small data-ar="درهم">DH</small></button>
+      </div>
+    </div>
+    <div class="form-row">
+      <div class="field"><label for="donName" data-ar="الاسم الكامل">Nom complet</label><input type="text" id="donName" placeholder="Votre nom" data-ph-ar="اسمك الكامل" required><span class="field-error"></span></div>
+      <div class="field"><label for="donEmail" data-ar="البريد الإلكتروني">Email</label><input type="email" id="donEmail" placeholder="vous@exemple.com" data-ph-ar="بريدك@example.com" required><span class="field-error"></span></div>
+    </div>
+    <div class="field"><label for="donMethod" data-ar="وسيلة الدفع">Moyen de paiement</label><select id="donMethod"><option data-ar="بطاقة بنكية">Carte bancaire</option><option data-ar="باي بال">PayPal</option><option data-ar="أورانج موني">Orange Money</option><option data-ar="تحويل بنكي">Virement bancaire</option></select></div>
+    <button type="submit" class="btn btn-coral btn-lg btn-block" data-ar="تأكيد التبرع">Confirmer le don <span class="btn-arrow">♥</span></button>
+  </form>
+  <small class="don-secure"><svg viewBox="0 0 24 24"><path d="M12 1 3 5v6c0 5 3.8 9.3 9 10 5.2-.7 9-5 9-10V5l-9-4Zm-1 14-4-4 1.4-1.4L11 12.2l5.6-5.6L18 8l-7 7Z"/></svg> <span data-ar="دفع آمن وسرّي">Paiement sécurisé et confidentiel</span></small>
+</div>
+
+<!-- ======================= TOAST ======================= -->
+<div class="toast" id="toast" role="status" aria-live="polite">
+  <span class="toast-icon"><svg viewBox="0 0 24 24"><path d="M9 16.2 4.8 12l-1.4 1.4L9 19 21 7l-1.4-1.4L9 16.2Z"/></svg></span>
+  <div><strong id="toastTitle" data-ar="شكراً لك !">Merci !</strong><span id="toastMsg" data-ar="تم إرسال طلبك بنجاح.">Votre demande a bien été envoyée.</span></div>
+  <button id="toastClose" aria-label="Fermer">×</button>
+</div>
+
+<script src="js/main.js"></script>
+</body>
+</html>
